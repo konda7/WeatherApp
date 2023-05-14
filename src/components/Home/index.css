@@ -1,0 +1,60 @@
+.loader-view-container {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  min-height: 100vh;
+}
+
+.home-success-view {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 150px 30px 150px;
+}
+
+.home-temperature-container {
+  background-color: rgb(0, 0, 0, 0.5);
+  color: #ffffff;
+  width: 100%;
+  align-self: center;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.sun-emoji {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.temperature-container-names {
+  font-family: 'Roboto';
+  font-size: 22px;
+  margin: 0;
+}
+
+.temperature {
+  font-size: 45px;
+}
+
+.small-card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.small-cards {
+  background-color: rgb(0, 0, 0, 0.5);
+  color: #ffffff;
+  align-self: flex-start;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 45%;
+}
